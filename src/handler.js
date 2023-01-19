@@ -139,6 +139,7 @@ const deleteNoteByIdHandler = (request, h) => {
     return response;
 };
 
+// export agar bisa digunakan handler tersebut di route
 module.exports = { addNoteHandler, 
     getAllNotesHandler, 
     getNoteByIdHandler, 
